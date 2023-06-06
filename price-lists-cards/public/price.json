@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 50.00,
+      "features": ["Gym access", "Limited classes", "No personal training"]
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "price": 70.00,
+      "features": ["Gym access", "Unlimited classes", "1 personal training session/month"]
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 90.00,
+      "features": ["Gym access", "Unlimited classes", "2 personal training sessions/month"]
+    }
+  ]
+  

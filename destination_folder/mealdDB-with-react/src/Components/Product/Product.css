@@ -1,0 +1,35 @@
+.product{
+    text-align: center;
+    padding: 25px 15px;
+    background: #302417;
+    border-radius: 5px;
+}
+.product img {
+    width: 250px;
+    height: 250px;
+}
+
+.product p a{
+    color: #d57d1f;
+    text-decoration: none;
+}
+
+.product a:hover{
+    color: #ffcb69;
+    text-decoration: none;
+    background: transparent;
+}
+
+.product button{
+    border: 1px solid #d57d1f;
+    color: #d57d1f;
+    background-color: transparent;
+    transition: color 1s, background-color 1s;
+    outline: none;
+}
+
+.product button:hover{
+    outline: none;
+    color: #2d2013;
+    background-color: #d57d1f;
+}

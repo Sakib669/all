@@ -1,0 +1,45 @@
+[
+    {
+      "service_id": 1,
+      "title": "General Consultation",
+      "img": "https://via.placeholder.com/150",
+      "price": 50,
+      "description": "Initial consultation with a general practitioner for general health concerns."
+    },
+    {
+      "service_id": 2,
+      "title": "Specialist Consultation",
+      "img": "https://via.placeholder.com/150",
+      "price": 100,
+      "description": "Initial consultation with a specialist doctor for specific medical concerns."
+    },
+    {
+      "service_id": 3,
+      "title": "Blood Tests",
+      "img": "https://via.placeholder.com/150",
+      "price": 75,
+      "description": "Blood tests to check for various health conditions and illnesses."
+    },
+    {
+      "service_id": 4,
+      "title": "Vaccinations",
+      "img": "https://via.placeholder.com/150",
+      "price": 80,
+      "description": "Vaccinations for common and preventable diseases such as flu, measles, and chickenpox."
+    },
+    {
+      "service_id": 5,
+      "title": "X-rays",
+      "img": "https://via.placeholder.com/150",
+      "price": 150,
+      "description": "Diagnostic imaging to visualize bones and internal organs for medical purposes."
+    },
+    {
+      "service_id": 6,
+      "title": "Medical Check-up",
+      "img": "https://via.placeholder.com/150",
+      "price": 200,
+      "description": "Comprehensive medical check-up with various tests and examinations to assess overall health."
+    }
+  ]
+  

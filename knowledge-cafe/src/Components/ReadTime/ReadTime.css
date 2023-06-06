@@ -1,0 +1,14 @@
+.read-time-div h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #6047EC;
+}
+
+.read-time-div {
+    text-align: center;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}

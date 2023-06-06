@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: #F3F1FF;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+header {
+    background: #562EFF;
+    padding: 15px 230px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-div>h4 {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.icon {
+    width: 40px;
+    height: 50px;
+}
+
+.list-div {
+    justify-content: center;
+    align-items: center;
+}
+
+.list-div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-div ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 36px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container {
+    background: #fff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* top players style  */
+.top-players {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    height: 56px;
+    width: 56px;
+}
+
+.player-name {
+    padding-left: 16px;
+    font-size: 18px;
+    font-size: 500;
+}
+
+/* top blogs style  */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px
+}
+
+.blog {
+    display: flex;
+}
+
+.blog .thumbnail img {
+    width: 224px;
+    height: 127px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog-author {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-size: 400;
+}
+
+.blog-author a {
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+
+/* latese courses styles  */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.course {
+    background: #fff;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.course .course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+    opacity: .5;
+}
+
+.course-duration {
+    height: 30px;
+    width: 94px;
+    display: flex;
+    align-items: center;
+    background: #FEE5DF;
+    ;
+    border: #ED6B4F 1px solid;
+    border-radius: 15px;
+    color: #ED6B4F;
+    justify-content: space-evenly;
+}
+
+.fa-clock.red {
+    color: #ED6B4F;
+}
+
+/* media queries */
+
+/* mobile devices */
+@media only screen and (max-width:688px) {
+    .header{
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player,
+    .blog {
+        flex-direction: column;
+    }
+
+    .courses {
+        grid-row-gap: 24px;
+    }
+}
+
+/* tablet devices */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

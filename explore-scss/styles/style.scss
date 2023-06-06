@@ -1,0 +1,11 @@
+$primary-color: blue;
+h1{
+    color: $primary-color;
+}
+p{
+    background-color: $primary-color;
+    color: #fff;
+}
+ul{
+    border: 2px solid $primary-color;
+}

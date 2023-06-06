@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!-- sidebar -->
+        <aside>
+            <section class="btn-section">
+                <img src="images/logo/logo.png" alt="">
+                <div>
+                    <button class="btn-info">
+                        Add a user
+                        <span class="text-light">(Randomly)</span>
+                    </button>
+                </div>
+                <div>
+                    <button class="btn-info">
+                        Double Money
+                    </button>
+                </div>
+                <div>
+                    <button class="btn-info">
+                        Sort By Rank
+                        <span class="text-light">(Decending)</span>
+                    </button>
+                </div>
+                <div>
+                    <button class="btn-info">
+                        Calculate Entire Wealth
+                    </button>
+                </div>
+                <img class="divider" src="/images/icons/divider.png" alt="">
+                <div>
+                    <button class="btn-info">
+                        Show All Billionares
+                    </button>
+                </div>
+                <div>
+                    <button class="btn-info">
+                        Richest by Industry
+                        <span class="text-light">(Technology)</span>
+                    </button>
+                </div>
+                <div>
+                    <button class="btn-info">
+                        Richest by state
+                        <span class="text-light">(Texas)</span>
+                    </button>
+                </div>
+            </section>
+        </aside>
+
+        <!-- info section  -->
+        <section class="container">
+            <h1 class="section-title">Richest By Industry</h1>
+            <h4 class="text-light">(Technology)</h4>
+            <!-- <img class="logo" src="/images/logo/logo1.svg" alt=""> -->
+            <div id="card-container" class="card-container">
+                <!-- <div class="card">
+                    <h3 class="card-title">Jeff Bezos</h3>
+                    <div class="card-body">
+                        <div class="left">
+                            <img src="/images/logo/logo.svg" alt="">
+                            <p><strong>Source:</strong> Amazon</p>
+                        </div>
+                        <div class="right">
+                            <p><strong>Citizenship:</strong> United</p>
+                            <p><strong>State:</strong> Wahing</p>
+                            <p><strong>City:</strong> Medina</p>
+                            <p><strong>Total Shares:</strong> 992634</p>
+                            <p><strong>Share:</strong> 992634</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Launch static backdrop modal
+                        </button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <section>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div id="modal-body" class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

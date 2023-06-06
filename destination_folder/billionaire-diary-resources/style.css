@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --darkColor: #0E1B34;
+    --lightNavyBlue: #D9D9D9;
+    --inkutAntiqua: 'Inknut Antiqua'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+    background: var(--darkColor);
+    padding: 25px 16px;
+}
+aside img{
+    margin: 20px auto;
+}
+
+.text-light {
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.btn-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 25px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-section img{
+    margin-bottom: 40px;
+}
+
+.divider{
+    width: 100%;
+}
+
+.btn-info {
+    background: var(--lightNavyBlue);
+    color: var(--darkColor);
+    text-align: center; 
+    padding: 15px 25px; 
+    width: 158px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.container{
+    width: 80%;
+    position: relative;
+}
+.container .logo{
+    position: absolute;
+    right: 3%;
+    top: 12%;
+}
+.section-title, .card-title{
+    font-family: var(--inkutAntiqua);
+    text-align: center;
+}
+.card-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: var(--lightNavyBlue);
+    padding: 30px 20px;
+    gap: 20px;
+}
+.card{
+    background: var(--darkColor);
+    color: var(--lightNavyBlue);
+    padding: 20px 15px;
+}
+.card-body{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card-body img{
+    width: 100%;
+}
+.card-body .left{
+    width: 60%;
+}

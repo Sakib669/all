@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Light, Bright Airy Stylish Apt & Safe Peaceful Stay",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "baths": 2,
+      "price": 34,
+      "totalPrice": 167,
+      "cancellationType": "Free cancellation until 5 days before check-in",
+      "description": "Experience the city like a local in this beautiful, fully equipped apartment located in the heart of the city. The apartment has been designed with your comfort in mind, and features modern amenities, comfortable furniture, and lots of natural light.",
+      "amenitiesDescription": "Wifi, Air conditioning, Kitchen",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "image": "https://picsum.photos/id/1/600/400"
+    },
+    {
+      "id": 2,
+      "title": "Luxury Condo with a Gorgeous View of the City",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "baths": 1,
+      "price": 59,
+      "totalPrice": 177,
+      "cancellationType": "Free cancellation until 2 days before check-in",
+      "description": "Indulge in luxury in this spacious and stylish condo located in the heart of the city. The condo boasts stunning views of the city, and features modern amenities, plush furniture, and a fully equipped kitchen. Perfect for couples or solo travelers!",
+      "amenitiesDescription": "Wifi, Gym, Pool",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "image": "https://picsum.photos/id/2/600/400"
+    },
+    {
+      "id": 3,
+      "title": "Charming Studio in a Historic Building",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "baths": 1,
+      "price": 45,
+      "totalPrice": 225,
+      "cancellationType": "Non-refundable",
+      "description": "Experience the charm of the city in this cozy and comfortable studio located in a historic building. The studio features a fully equipped kitchen, comfortable furniture, and plenty of natural light. Perfect for solo travelers or couples!",
+      "amenitiesDescription": "Wifi, Kitchen",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "image": "https://picsum.photos/id/3/600/400"
+    }
+  ]
+  

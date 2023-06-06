@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/src/assets/images/Double.png",
+    "title": "Couple Room",
+    "description": "A cozy room designed for couples with a romantic ambiance.",
+    "persons": 2,
+    "beds": 1
+  },
+  {
+    "id": 2,
+    "image": "/src/assets/images/Family.png",
+    "title": "Family Room",
+    "description": "A spacious room perfect for families with kids.",
+    "persons": 4,
+    "beds": 2
+  },
+  {
+    "id": 3,
+    "image": "/src/assets/images/Single.png",
+    "title": "Single Room",
+    "description": "A comfortable room ideal for solo travelers or business travelers.",
+    "persons": 1,
+    "beds": 1
+  }
+]

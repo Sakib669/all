@@ -1,0 +1,4 @@
+.translate-btn{
+    position: absolute;
+    transform: translate(-100%,0%)!important;
+}

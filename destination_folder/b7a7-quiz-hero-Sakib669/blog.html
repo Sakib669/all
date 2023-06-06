@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <title>Blog</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./index.js" defer></script>
+    
+        <!-- You don't need to change noChange.js file. It's fine -->
+        <script src="./noChange.js" defer></script>
+        <!-- You don't need to change noChange.js file. It's fine -->
+    
+        <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                fontFamily: {
+                  common: ["Rubik", "sans-serif"],
+                },
+              },
+            },
+          };
+        </script>
+      </head>
+<body>
+    <div class="mx-auto w-3/4 mb-10 text-lg">
+        <h1 class="font-bold"><u class="text-green-700">Q-1:</u> What is the difference between find(), forEach(), map(), filter() methods ?</h1>
+        <p><u class="text-green-700 font-bold">Ans:</u>
+        1.1 find() method is used to loop through an array and it will return the first element which matches the condition.
+        <br>
+        1.2 forEach() method is used to loop through an array but it does not return anything.
+        <br>
+        1.3 map() is a shortcut method to loop through an array.
+        <br>
+        1.4 filter() method is used to loop through an array and it will return all the elements that match the condition.
+    </p>
+    </div>
+    <div class="mx-auto w-3/4 mb-10 text-lg">
+        <h1 class="font-bold"><u class="text-green-700">Q-2:</u> What is the difference among localStorage, sessionStorage and cookies ?</h1>
+        <p><u class="text-green-700 font-bold">Ans:</u>
+        2.1 Local storage - Stores data with no expiration date.
+        <br>
+        2.2 Session storage - Stores data for one session (data is lost when the browser tab is closed).
+        <br>
+        2.3 Cookies are text files with small pieces of data.
+        <br>
+    </p>
+    </div>
+    <div class="mx-auto w-3/4 mb-10 text-lg">
+        <h1 class="font-bold"><u class="text-green-700">Q-3:</u> What is Event Loop in JS ?</h1>
+        <p><u class="text-green-700 font-bold">Ans:</u>
+        It is JavaScript's runtime model based even loop, It is responsible for handling and executing the code, collecting and processing events, and executing queued sub-tasks.
+    </p>
+    </div>
+    <div class="mx-auto w-3/4 mb-10 text-lg">
+        <h1 class="font-bold"><u class="text-green-700">Q-4:</u> Tell something about quizTimer() !!!</h1>
+        <p><u class="text-green-700 font-bold">Ans:</u>
+        This function is using a setInterval() method to display the quiz timer , inside the function there is a Math.round() method and seconds are divided by 60 get the minutes, it's taking bolean as parameter.
+    </p>
+    </div>
+    <div class="mx-auto w-3/4 mb-10 text-lg">
+        <h1 class="font-bold"><u class="text-green-700">Q-5:</u> Tell something about chooseQuiz() !!</h1>
+        <p><u class="text-green-700 font-bold">Ans:</u>
+        This function is taking index number and selected answers as parameters, then it mathces if the given answers are correct through find() method and stores the values to the localStorage.
+    </p>
+    </div>
+</body>
+</html>

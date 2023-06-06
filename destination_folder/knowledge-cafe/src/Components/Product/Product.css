@@ -1,0 +1,56 @@
+.product-div {
+    margin-bottom: 72px;
+}
+
+
+.product-div img {
+    border-radius: 8px;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 32px;
+}
+
+.user-data-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info-div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.user-date,
+.read-time {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.description {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+}
+
+.mark-btn {
+    color: #6047EC;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}

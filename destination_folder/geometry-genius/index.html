@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <h2>Interactive</h2>
+                <h5>Geometry Genius</h5>
+            </div>
+            <div>
+                <button><a href="quiz.html"><strong>
+                    Blog
+                </strong></a></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- triangle -->
+            <div class="card">
+                <img src="images/triangle.png" alt="">
+                <p class="elementName">
+                    <strong>Triange</strong>
+                </p>
+                <p><small>Area (A) = 0.5 X b X h</small></p>
+                <div>
+                    <input type="text" placeholder="b" id="triangle-base-input">
+                <span>cm</span>
+                <input type="text" placeholder="h" id="triangle-height-input">
+                <span>cm</span>
+                </div>
+                <button class="calculate" id="triangle-calculate">
+                    <strong>
+                        Calculate
+                    </strong>
+                </button>
+            </div>
+            <!-- rectangle -->
+            <div class="card">
+                <img src="images/rectangle.png" alt="">
+                <p class="elementName">
+                    <strong>Rectangle</strong>
+                </p>
+                <p><small>Area (A) = w X h</small></p>
+                <div>
+                    <input type="text" placeholder="w" id="rectangle-width-input">
+                <span>cm</span>
+                <input type="text" placeholder="h" id="rectangle-height-input">
+                <span>cm</span>
+                </div>
+                <button class="calculate" id="rectangle-calculate">
+                    <strong>
+                        Calculate
+                    </strong>
+                </button>
+            </div>
+            <!-- Parallelogram -->
+            <div class="card">
+                <img src="images/parallelogram.png" alt="">
+                <p class="elementName">
+                    <strong>Parrallegram</strong>
+                </p>
+                <p><small>Area (A) = b X h</small></p>
+                <div>
+                    <input type="text" placeholder="b" id="parallelogram-base-input">
+                <span>cm</span>
+                <input type="text" placeholder="h" id="parallelogram-height-input">
+                <span>cm</span>
+                </div>
+                <button class="calculate" id="parallelogram-calculate">
+                    <strong>
+                        Calculate
+                    </strong>
+                </button>
+            </div>
+            <!-- Rhombus -->
+            <div class="card">
+                <img src="images/rhombus.png" alt="">
+                <p class="elementName">
+                    <strong>Rhombus</strong>
+                </p>
+                <p><small>Area (A) = 0.5 X d<sub>1</sub> X d<sub>2</sub></small></p>
+                <div>
+                    <input type="text" placeholder="b" id="rhombus-base-input">
+                <span>cm</span>
+                <input type="text" placeholder="h" id="rhombus-height-input">
+                <span>cm</span>
+                </div>
+                <button class="calculate" id="rhombus-calculate">
+                    <strong>
+                        Calculate
+                    </strong>
+                </button>
+            </div>
+            <!-- Pentagon -->
+            <div class="card">
+                <img src="images/pentagon.png" alt="">
+                <p class="elementName">
+                    <strong>Pentagon</strong>
+                </p>
+                <p><small>Area (A) = 0.5 X p X b</small></p>
+                <div>
+                    <input type="text" placeholder="b" id="pentagon-perimeter-input">
+                <span>cm</span>
+                <input type="text" placeholder="h" id="pentagon-base-input">
+                <span>cm</span>
+                </div>
+                <button class="calculate" id="pentagon-calculate">
+                    <strong>
+                        Calculate
+                    </strong>
+                </button>
+            </div>
+            <!-- Ellipse -->
+            <div class="card">
+                <img src="images/ellipse.png" alt="">
+                <p class="elementName">
+                    <strong>Ellipse</strong>
+                </p>
+                <p><small>Area (A) = πab
+                </small></p>
+                <div>
+                    <input type="text" placeholder="b" id="ellipse-base-input">
+                <span>cm</span>
+                <input type="text" placeholder="h" id="ellipse-height-input">
+                <span>cm</span>
+                </div>
+                <button class="calculate" id="ellipse-calculate">
+                    <strong>
+                        Calculate
+                    </strong>
+                </button>
+            </div>
+        </div>
+        <!-- aside -->
+        <div id="aside">
+            <h6>
+                Area Calculation
+            </h6>
+            <ol id="calculation-list">
+            </ol>
+        </div>
+    </main>
+
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+</html>

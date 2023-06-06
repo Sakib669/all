@@ -1,0 +1,31 @@
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+
+const Post = ({post}) => {
+    const {id, title} = post;
+    const postsStyles = {
+        margin: '10px',
+        padding: '10px',
+        borderRadius: '10px',
+        border: '2px solid mediumslateblue'
+    };
+
+    const navigate = useNavigate();
+    const handleNavigation = () => {
+            navigate(`/post/${id}`);
+    };
+
+
+    return (
+        <div style={postsStyles}>
+            <h5>ID: {id}</h5>
+            <h5>{title}</h5>
+            <Link to={`/post/${id}`}>Show Details</Link>
+            <Link to={`/post/${id}`}><button >Show Post Details</button></Link>
+            <button onClick={handleNavigation}>With Button Handler</button>
+            
+        </div>
+    );
+};
+
+export default Post;

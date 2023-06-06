@@ -1,0 +1,11 @@
+.bookmarked-lists-div {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.bookmarked-lists-div p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+}

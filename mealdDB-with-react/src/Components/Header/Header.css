@@ -1,0 +1,26 @@
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    background: #23180d;
+    padding: 25px 90px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul a, .navbar ul li {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 5px 12px;
+}
+
+a:hover{
+    background: #c52d2f; 
+    border-radius: 3px;
+}

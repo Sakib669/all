@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem 1rem;
+    background: rgba(15,78,163,0.9);
+}
+
+
+nav a {
+    margin-right: 20px;
+}
+
+nav img {
+    max-height: 58px
+}
